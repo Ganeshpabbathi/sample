@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body class="bg-gray-100 text-gray-800 font-sans">
+
   <!-- Header -->
   <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
@@ -14,6 +20,7 @@
       <nav class="space-x-4">
         <a href="#about" class="hover:text-blue-500">About</a>
         <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#certificates" class="hover:text-blue-500">Certificates</a>
         <a href="#contact" class="hover:text-blue-500">Contact</a>
       </nav>
     </div>
@@ -21,8 +28,8 @@
 
   <!-- Hero Section -->
   <section class="bg-blue-600 text-white py-20 text-center">
-    <h2 class="text-4xl font-bold mb-4">Hi, I'm ganesh</h2>
-    <p class="text-xl mb-6">A Web Developer passionate about creating beautiful and functional websites.</p>
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Ganesh</h2>
+    <p class="text-xl mb-6">A Web Developer passionate about creating beautiful and functional websites and an innovator.</p>
     <a href="#projects" class="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">View My Work</a>
   </section>
 
@@ -30,7 +37,7 @@
   <section id="about" class="max-w-4xl mx-auto py-16 px-4">
     <h3 class="text-3xl font-bold mb-6">About Me</h3>
     <p class="text-lg leading-relaxed">
-      I'm Ganesh full-stack developer with experience in React, Node.js, and Tailwind CSS. I love building responsive web applications that provide excellent user experiences.
+      I'm Ganesh, a B.Tech student in Information Technology at VIGNAN. I'm a full-stack developer with experience in React, Node.js, and Tailwind CSS. I love building responsive web applications that provide excellent user experiences. I enjoy working on projects that challenge me — from developing web applications to exploring intelligent systems.
     </p>
   </section>
 
@@ -39,18 +46,58 @@
     <div class="max-w-6xl mx-auto">
       <h3 class="text-3xl font-bold mb-8 text-center">Projects</h3>
       <div class="grid md:grid-cols-3 gap-8">
+        
         <!-- Project 1 -->
         <div class="bg-white p-6 rounded-lg shadow-md">
-          <h4 class="text-xl font-semibold mb-2">skills</h4>
-          <p class="text-gray-600 mb-4">A brief description of the project goes here.</p>
+          <h4 class="text-xl font-semibold mb-2">Weather Monitoring Dashboard</h4>
+          <p class="text-gray-600 mb-4">A web-based system that provides accessible and accurate environmental data to users via a web server.</p>
           <a href="#" class="text-blue-600 hover:underline">View Details</a>
         </div>
+
         <!-- Project 2 -->
         <div class="bg-white p-6 rounded-lg shadow-md">
-          <h4 class="text-xl font-semibold mb-2">archievements</h4>
-          <p class="text-gray-600 mb-4">A brief description of the project goes here.</p>
+          <h4 class="text-xl font-semibold mb-2">Skills</h4>
+          <p class="text-gray-600 mb-4">Programming Languages: C, Python. Tools: Git, VS Code, Eclipse. Database: SQL.</p>
           <a href="#" class="text-blue-600 hover:underline">View Details</a>
         </div>
-        <!-- Project 3 -->
-        <div class="bg-white p-6 rounded-lg shadow-md">
-          <h4 class="t
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="max-w-3xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-semibold text-gray-600 mb-8">Certificates</h2>
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6 border">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Python Programming Certificate</h3>
+      <p class="text-sm text-gray-600">
+        Successfully completed a Python certification on <strong>HackerRank</strong>, demonstrating skills in functions, loops, conditionals, and data structures.
+      </p>
+      <a href="#" class="text-indigo-600 hover:underline mt-2 inline-block">View Certificate</a>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6 border">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Power BI Certificate</h3>
+      <p class="text-sm text-gray-600">
+        Completed a certification course on <strong>Power BI</strong>, a powerful business analytics tool used for visualizing data, creating reports and dashboards, and making data-driven decisions.
+      </p>
+      <a href="#" class="text-indigo-600 hover:underline mt-2 inline-block">View Certificate</a>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6 border">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Introduction to Data Science</h3>
+      <p class="text-sm text-gray-600">
+        Completed a certification course on <strong>Introduction to Data Science</strong>. This certificate demonstrates foundational knowledge in data science concepts, tools, and techniques — useful for careers in data analytics, machine learning, or AI.
+      </p>
+      <a href="#" class="text-indigo-600 hover:underline mt-2 inline-block">View Certificate</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-10 py-6 text-center text-sm text-gray-500">
+    © 2025 Ganesh Gani. All rights reserved.
+  </footer>
+
+</body>
+</html>
